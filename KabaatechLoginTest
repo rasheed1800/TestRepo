@@ -1,0 +1,78 @@
+package TestSelenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class KabaaTechLoginTest {
+
+ 
+		 public static void main(String[] args) throws InterruptedException {
+		        System.setProperty("webdriver.chrome.driver","C:\\KeyWordFramework\\src\\main\\resources\\Driver\\chromedriver.exe");
+		        WebDriver driver = new ChromeDriver();
+		        driver.get("http:hotel.kaabatech.com/index.php?");
+		        Thread.sleep(1000);
+		        driver.findElement(By.xpath("//*[@id=\"PIKContentMigration\"]/div[2]/div[6]/a")).click();
+		        /*Thread.sleep(1000);
+		        driver.findElement(By.id("userName")).sendKeys("admin");
+		        Thread.sleep(1000);
+		        driver.findElement(By.name("password")).sendKeys("hotel");
+		        Thread.sleep(1000);
+		        driver.findElement(By.name("login")).click();
+		        Thread.sleep(1000);
+		        driver.findElement(By.id("addButton")).click();
+		        
+		        /*String act_title=driver.getTitle();
+		        String exp_title="KAABA TECHNOLOGY";
+		        
+		        if(act_title.equals(exp_title))
+		        {
+		        	System.out.println("Test Passed");
+		        }
+		        else
+		        {
+		        	System.out.println("Test Failed");
+		        }
+		        driver.close();*/
+	}
+
+}
+package TestSelenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class KabaaTechLoginTest {
+
+ 
+		 public static void main(String[] args) throws InterruptedException {
+		        System.setProperty("webdriver.chrome.driver","C:\\KeyWordFramework\\src\\main\\resources\\Driver\\chromedriver.exe");
+		        WebDriver driver = new ChromeDriver();
+		        driver.get("http:hotel.kaabatech.com/index.php?");
+		        Thread.sleep(1000);
+		        driver.findElement(By.xpath("//*[@id=\"PIKContentMigration\"]/div[2]/div[6]/a")).click();
+		        /*Thread.sleep(1000);
+		        driver.findElement(By.id("userName")).sendKeys("admin");
+		        Thread.sleep(1000);
+		        driver.findElement(By.name("password")).sendKeys("hotel");
+		        Thread.sleep(1000);
+		        driver.findElement(By.name("login")).click();
+		        Thread.sleep(1000);
+		        driver.findElement(By.id("addButton")).click();
+		        
+		        /*String act_title=driver.getTitle();
+		        String exp_title="KAABA TECHNOLOGY";
+		        
+		        if(act_title.equals(exp_title))
+		        {
+		        	System.out.println("Test Passed");
+		        }
+		        else
+		        {
+		        	System.out.println("Test Failed");
+		        }
+		        driver.close();*/
+	}
+
+}
